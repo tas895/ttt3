@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- INSERT URL HERE -->
+<!-- https://tas895.github.io/ttt3/ttt3 -->
 <html>
 <head>
 <meta charset="UTF-8">
@@ -65,7 +65,7 @@
         }
             document.querySelectorAll(".square").forEach(square => {    //this attaches the "event" to all of the squares, for each goes through each square one by one
                 square.addEventListener("click", function() {           //the code "listens" for a click, when this occurs it will "do" the function meaning this makes the event occur everytime a square is clicked
-                    alert("X was added to Square: " + square.id);       //alert creates the pop up which says which square was clicked when that happens
+                    alert("X was added to Square: " + i);       //alert creates the pop up which says which square was clicked when that happens
                     square.innerHTML = "X";                             //writes "X" in the selected square
                 });
             });
